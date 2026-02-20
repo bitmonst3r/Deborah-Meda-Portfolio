@@ -248,9 +248,15 @@
     })
   });
 
-  // linkedIn Button
-  const linkedInButton = document.querySelector(".js-linkedin-button");
-  linkedInButton.addEventListener("click", function() {
+  // github Button
+  const githubBtn = document.querySelector(".js-github-btn");
+  githubBtn.addEventListener("click", function() {
     window.location.href = 'https://github.com/bitmonst3r';
+  });
+
+    // linkedIn Button
+  const linkedinBtn = document.querySelector(".js-github-btn");
+  linkedinBtn.addEventListener("click", function() {
+    window.location.href = 'https://www.linkedin.com/in/deborah-meda/';
   });
 })()
