@@ -248,4 +248,9 @@
     })
   });
 
+  // linkedIn Button
+  const linkedInButton = document.querySelector(".js-linkedin-button");
+  linkedInButton.addEventListener("click", function() {
+    window.location.href = 'https://github.com/bitmonst3r';
+  });
 })()
